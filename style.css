@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(260deg, #6a9eec, #65c0d3);
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	background: #fff;
+	padding: 5rem;
+	border-radius: 2rem;
+}
+
+.home,
+.notifications,
+.messages {
+	display: flex;
+	align-items: center;
+	padding: 2rem;
+	cursor: pointer;
+}
+
+.home-title,
+.notifications-title,
+.messages-title {
+	padding-left: 1.3rem;
+}
+
+
+.messages-svg, .notification-svg {
+  overflow: visible;
+}
+
+
